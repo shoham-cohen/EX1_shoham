@@ -4,8 +4,7 @@
 int main(){
 int firstnum;
 int secondnum;
-scanf("%d", &firstnum);
-scanf("%d", &secondnum);
+scanf("%d %d", &firstnum , &secondnum);
 printf("The Armstrong numbers are: ");
 for(int i = firstnum; i <= secondnum; i++){
   if(isArmstrong(i) == 1){
