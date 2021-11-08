@@ -35,4 +35,3 @@ for(int i = firstnum; i <= secondnum; i++){
 printf("\n");
 return 0;
 }
-}
