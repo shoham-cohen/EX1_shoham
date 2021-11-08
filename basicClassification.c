@@ -2,6 +2,9 @@
 #include <math.h>
 
 int isPrime(int number){ 
+   if(number == 2){
+     return 1;
+     }
    if(number < 1 || number % 2 == 0){ 
    return 0;
    }
@@ -39,5 +42,6 @@ int isStrong(int number){
     return 0;
     }       
 }
+
 
 
